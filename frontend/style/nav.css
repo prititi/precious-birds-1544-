@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #nav{
+    background-color: #2f9bdb;
+    }
+    #nav{
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+    
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    #tooltip {
+    position: relative;
+    display: inline-block;
+    }
+    
+    #tooltip #tooltip-popup {
+    visibility: hidden;
+    width: 130px;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    border-radius: 2px;
+    margin-left: -50px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 20px;
+    line-height: 35px;
+    }
+    #tooltip:hover #tooltip-popup {
+    visibility: visible;
+    }
+    #logo>img{
+    margin-top: 4px;
+    display: inline-block;
+    }
+    #nav1{
+    display: flex;
+    gap: 30px;
+    margin-left: 1%;
+    
+    }
+    input{
+    display: inline-block;
+    height: 30px;
+    width: 400px;
+    margin-top: 8px;
+    }
+    #nav2{
+    display: flex;
+    margin-right: 1%;
+    
+    }
+    #nav2{
+    gap: 50px;
+    font-size: 15px;
+    font-weight: 15px;
+    color: white;
+    margin-top: 15px;
+    }
+    
+    #Litleanchortag{
+        color: white;
+    }
