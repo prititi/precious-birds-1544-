@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+  }
+  .big{
+   font-size: 25px;  
+}
+.PopUp{
+    background-color: antiquewhite;
+ position: absolute;
+  width:30%;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  top: -250%;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(1.05);
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  /* transition:top 0ms ease-in-out 200ms,
+              opacity 200ms ease-in-out 0ms,
+             transform 20ms ease-in-out 00ms; */
+}
+.PopUp.active{
+top:50%;
+left: 50%;
+transform: translate(-50%,-50%) scale(1);
+/* transition:top 0ms ease-in-out 200ms,
+              opacity 200ms ease-in-out 0ms,
+             transform 20ms ease-in-out 00ms; */
+
+}
+.form p{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+#email{
+  width: 85%;
+  padding: 12px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.hov{
+  padding: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 50%;
+  border: 1px solid green;
+  color: green;
+}
+.closebutton{
+  margin-left: 100%;
+  color: gray;
+}
+.submit{
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 12px;
+  font-size: 16px;
+  color: gray;
+}
+.mobilenumber{
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 12px;
+  font-size: 20px;
+  color: gray;
+}
+.create_accnt{
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 12px;
+  font-size: 16px;
+  color: gray;
+}
+a{
+  color: gray;
+  font-size: 17px;
+  text-decoration: none;
+}
+.check{
+  /* background:linear-gradient(to right,#dccbb5,#e88eb5,#abc4d8); */
+  background-color: antiquewhite;
+ position: absolute;
+  width:30%;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  top:-850%;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(1.05);
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  /* transition:top 0ms ease-in-out 200ms,
+              opacity 200ms ease-in-out 0ms,
+             transform 20ms ease-in-out 00ms; */
+
+}.check.active{
+top:50%;
+left: 50%;
+transform: translate(-50%,-50%) scale(1);
+/* transition:top 0ms ease-in-out 200ms,
+              opacity 200ms ease-in-out 0ms,
+             transform 20ms ease-in-out 00ms; */
+
+}#numb{
+  width: 85%;
+  padding: 12px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 20px;
+  color: gray;
+}#number{
+  width: 85%;
+  padding: 12px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 20px;
+  color: gray;
+}
+.EmailIDUSE{
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 12px;
+  font-size: 20px;
+  color: gray;
+}
+.Signup{
+  /* background:linear-gradient(to right,#aea28a,#a1bce8,#c8a4da); */
+background-color: antiquewhite;
+position: absolute;
+ width:30%;
+ height: 650px;
+ padding: 10px;
+ padding-left: 30px;
+ padding-right: 30px;
+ top:-300%;
+ left: -140%;
+ transform: translate(-50%,-50%) scale(1.05);
+
+ overflow: auto;
+ box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}.Signup.active{
+  top:50%;
+left: 50%;
+transform: translate(-50%,-50%) scale(1);
+}
+.signinone{
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 12px;
+  font-size: 16px;
+  color: gray;
+
+}#email1{
+    width: 85%;
+  padding: 12px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 20px;
+  color: gray;
+}
+.big{
+  text-align: center;
+  padding-bottom: 20px;
+}
