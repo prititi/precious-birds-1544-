@@ -6,13 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/index.css">
     <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
     <title>Home Page</title>
 </head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+  </style>
+   <style>
+    .badge:after{
+        content:attr(value);
+        font-weight: bold;
+        font-size:18px;
+        color: rgb(221, 15, 15);
+        background: rgb(255, 255, 255);
+        border-radius:50%;
+        padding: 0 5px;
+        position:relative;
+        left:-8px;
+        top:-10px;
+        opacity:0.9;
+    }
+   </style>
 <body>
     <div id="header">
   <nav id="nav">
       <div >
-          <img id="img" src="./travolook.png">
+          <img id="img" src="./imsges/travolook.png">
       </div>
       <div id="navsearch" style="display: none;">
           <input id="newinput" type="text" value="" placeholder="Search for itineraise, destination, hotels or activities" value="hii">
@@ -25,7 +51,7 @@
           <a href="#">Forum</a>
           <a href="#">Holidays</a>
           <a href="#">Publish Trip▼</a>
-          <a href="./login.html">Sign in</a>
+          <a href="./signup.html">Sign Up</a>
       </div>
   </nav>
   <h1 id="global">India's Largest Community of Travellers</h1>
@@ -40,43 +66,229 @@
   <div id="parents" style="margin-top: 5px; position: absolute; top: 250px; left: 340px;">
   </div>
 </div>
+<!-- header -->
+<div id="banner">
+  <img src="https://tpc.googlesyndication.com/simgad/12660317278068448277" alt="">
+</div>
+
+<main>
+  <div id="main">
+    <div >
+      <img class="img1"  src="https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192329_aa.png" alt="">
+    </div>
+    <div >
+      <img class="img1" src="https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192307_cc.png" alt="">
+    </div>
+    <div >
+      <img class="img1" src="https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192273_bb.png" alt="">
+    </div>
+    <div >
+      <img class="img1" src="https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192344_dd.png" alt="">
+    </div>
+  </div>
 
 
-      <!-- header -->
-      <div id="banner">
-        <img src="https://tpc.googlesyndication.com/simgad/12660317278068448277" alt="">
+  <!-- slider........................ -->
+  <h1 id="Spotlight">In the Spotlight: Partnerships</h1>
+  <div class="swiper mySSwiper">
+    <div class="swiper-wrapper">
+      
+      
+
+      <div class="swiper-slide">
+        <a href="./boy.html"><img class="fistImg"
+          src="https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1671021501_activity_scuba_diving_in_oman_1.jpg"
+          alt=""></a>
+        <div class="fistImgLogo">
+          <span style="color: rgb(213, 0, 50)">SINGAPORE TURISM BOARD</span>
+        </div>
+
+        <h3 id="fun" >Visiting Singapore For New Year's Eve or Chinese New Year? Bookmark These Fun Things To Do!</h3>
       </div>
+      
+      <div class="swiper-slide">
+        <a href="./boy.html"><img class="fistImg"
+          src="https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1672049661_055_outdoorcommonarea_01_min.jpg"
+          alt=""></a>
+        <div class="fistImgLogo">
+          <span style="color: rgb(213, 0, 50)">SINGAPORE TURISM BOARD</span>
+        </div>
+
+        <h3 id="fun">Visiting Singapore For New Year's Eve or Chinese New Year? Bookmark These Fun Things To Do!</h3>
+      </div>
+      
+      <div class="swiper-slide">
+        <a href="./boy.html"><img class="fistImg"
+          src="https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1671523125_011_deckarea_02_1_min.jpg"
+          alt=""></a>
+        <div class="fistImgLogo">
+          <span style="color: rgb(213, 0, 50)">SINGAPORE TURISM BOARD</span>
+        </div>
+
+        <h3 id="fun">Visiting Singapore For New Year's Eve or Chinese New Year? Bookmark These Fun Things To Do!</h3>
+      </div>
+      
+      <div class="swiper-slide">
+        <a href="./boy.html"><img class="fistImg"
+          src="https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1671523125_011_deckarea_02_1_min.jpg"
+          alt=""></a>
+        <div class="fistImgLogo">
+          <span style="color: rgb(213, 0, 50)">SINGAPORE TURISM BOARD</span>
+        </div>
+
+        <h3 id="fun">Visiting Singapore For New Year's Eve or Chinese New Year? Bookmark These Fun Things To Do!</h3>
+      </div>
+      
+      <div class="swiper-slide">
+        <a href="./boy.html"><img class="fistImg"
+          src="https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1671523125_011_deckarea_02_1_min.jpg"
+          alt=""></a>
+        <div class="fistImgLogo">
+          <span style="color: rgb(213, 0, 50)">SINGAPORE TURISM BOARD</span>
+        </div>
+
+        <h3 id="fun">Visiting Singapore For New Year's Eve or Chinese New Year? Bookmark These Fun Things To Do!</h3>
+      </div>
+      
+      <div class="swiper-slide">
+        <a href="./boy.html"><img class="fistImg"
+          src="https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1670839402_2020_rws_acw_kv3_sharktank_4355_lr.jpg"
+          alt=""></a>
+        <div class="fistImgLogo">
+          <span style="color: rgb(213, 0, 50)">SINGAPORE TURISM BOARD</span>
+        </div>
+
+        <h3 id="fun">Visiting Singapore For New Year's Eve or Chinese New Year? Bookmark These Fun Things To Do!</h3>
+      </div>
+      
+      <div class="swiper-slide">
+        <a href="./boy.html"><img class="fistImg"
+          src="https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1670586190_image_20221209_165038_253_1.jpg"
+          alt=""></a>
+        <div class="fistImgLogo">
+          <span style="color: rgb(213, 0, 50)">SINGAPORE TURISM BOARD</span>
+        </div>
+
+        <h3 id="fun">Visiting Singapore For New Year's Eve or Chinese New Year? Bookmark These Fun Things To Do!</h3>
+      </div>
+      
+      <div class="swiper-slide">
+        <a href="./boy.html"><img class="fistImg"
+          src="https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg"
+          alt=""></a>
+        <div class="fistImgLogo">
+          <span style="color: rgb(213, 0, 50)">SINGAPORE TURISM BOARD</span>
+        </div>
+
+        <h3 id="fun">Visiting Singapore For New Year's Eve or Chinese New Year? Bookmark These Fun Things To Do!</h3>
+      </div>
+      
+      <div class="swiper-slide">
+        <a href="./boy.html"><img class="fistImg"
+          src="https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1663242404_1662994966_gostops_ooty_1.jpg"
+          alt=""></a>
+        <div class="fistImgLogo">
+          <span style="color: rgb(213, 0, 50)">SINGAPORE TURISM BOARD</span>
+        </div>
+
+        <h3 id="fun">Visiting Singapore For New Year's Eve or Chinese New Year? Bookmark These Fun Things To Do!</h3>
+      </div>
+      
+      <div class="swiper-slide">
+        <a href="./boy.html"><img class="fistImg"
+          src="https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1666862339_1666247652_26_4o693h3.jpg"
+          alt=""></a>
+        <div class="fistImgLogo">
+          <span style="color: rgb(213, 0, 50)">SINGAPORE TURISM BOARD</span>
+        </div>
+
+        <h3 id="fun">Visiting Singapore For New Year's Eve or Chinese New Year? Bookmark These Fun Things To Do!</h3>
+      </div>
+      
+      <div class="swiper-slide">
+        <a href="./boy.html"><img class="fistImg"
+          src="https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1661937030_manali_5_1.jpg"
+          alt=""></a>
+        <div class="fistImgLogo">
+          <span style="color: rgb(213, 0, 50)">SINGAPORE TURISM BOARD</span>
+        </div>
+
+        <h3 id="fun">Visiting Singapore For New Year's Eve or Chinese New Year? Bookmark These Fun Things To Do!</h3>
+      </div>
+      
+      
+      
+      <div class="swiper-slide">
+        <a href="./boy.html"><img class="fistImg"
+          src="https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1672226023_2022_uss_gru_and_the_minions_family.jpg"
+          alt=""></a>
+        <div class="fistImgLogo">
+          <span style="color: rgb(213, 0, 50)">SINGAPORE TURISM BOARD</span>
+        </div>
+
+        <h3 id="fun">Visiting Singapore For New Year's Eve or Chinese New Year? Bookmark These Fun Things To Do!</h3>
+      </div>
+      
+      
     </div>
-    <div id="mainDevCont">
-    <div class="anchors">
-      <div>
-        <a href="./MindfulRetreats.html"
-          ><img
-            src="https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192329_aa.png"
-            alt=""
-        /></a>
-      </div>
-      <div>
-        <a href="./onlineExpe.html"
-          ><img
-            src="https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192307_cc.png"
-            alt=""
-        /></a>
-      </div>
-      <div>
-        <a href="./tripotoFamily.html"
-          ><img
-            src="https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192273_bb.png"
-            alt=""
-        /></a>
-      </div>
-      <div>
-        <a href="./Hindi.html"
-          ><img
-            src="https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192344_dd.png"
-            alt=""
-        /></a>
-      </div>
-    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+</main>
+
+
+<!-- footer.................................. -->
+<div id="footter"></div>
+      
 </body>
 </html>
+<script type="module">
+  import footer from "./landing/footer.js";
+  document.getElementById("footter").innerHTML = footer();
+</script>
+
+
+<!-- slider script ..................-->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySSwiper", {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        slidesPerGroup: 4,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+      },
+      pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+      },
+      navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+      },
+  });
+</script>
+</html>
+
+

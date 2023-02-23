@@ -1,5 +1,5 @@
 #header{
-    width: 99%;
+    width: 100%;
     height: 55vh;
     background-image: url('https://cdn1.tripoto.com/assets/2.9/img/home_banner_road.jpg');
     background-size: cover;
@@ -87,7 +87,7 @@
     margin-top: 50px;
   
 }
-#slider{
+/* #slider{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -295,12 +295,82 @@
     display: none;
     position: absolute;
     position: fixed;
-}
+} */
 #banner{
-    width: 90%;
-    margin: 50px 150px 40px 
+    width: 80%;
+    margin: 50px 250px 40px 
     
 }
-#banner:hover{
-    background-color: none;
+#banner:focus {
+    outline: none;
+}
+
+#banner:hover {
+    transform: scale(1.1);
+} 
+#mainDevCont{
+    border: 1px solid red;
+    display: flex;
+    /* grid-template-rows: repeat(1,1fr); */
+}
+#main {
+    /* border: 1px solid red; */
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    margin: 0px 0px 0px 140px;
+}
+.img1{
+    width: 90%;
+    height: 100px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    /* margin: 0px 0px 0px 0px; */
+    
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    #main{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+        margin: auto;
+    }
+    #banner{
+        width: 60%;
+    }
+ }
+ #Spotlight{
+    /* margin-top: 30px; */
+    margin: 30px 0px 0px 140px;
+    font-size: 35px;
+    font-family: circularairpro-bold,Helvetica,Arial,sans-serif;
+    font-weight: 750;
+ }
+ /* slider */
+
+ .swiper {
+    width: 90%;
+    /* height: 100%; */
+}
+.swiper-slide img:focus {
+  outline: none;
+}
+
+.swiper-slide img:hover {
+  transform: scale(1.1);
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+#fun{
+    margin-top: 20px;
+}
+.fistImgLogo{
+    margin-top: 30px;  
 }

@@ -1,0 +1,144 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#container{
+    width: 90%;
+    display: flex;
+}
+#final{
+    /* border: 1px solid; */
+    height: 120vh;
+    width: 38%;
+    margin-left: 50px;
+}
+#final img{
+    width: 100%;
+    height: 100%;
+}
+#box{
+    width:38%;
+    margin: auto;
+    margin-top: 30px;
+    height:115vh;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+
+}
+#part1{
+    width:100%;
+    height:30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+   
+}
+#part1 img{
+    height: 28vh;
+    /* padding-bottom: 20px; */
+    /* border: 1px solid; */
+}
+#part1 p{
+    font-size: 25px;
+    font-weight:100px;
+    /* background-color:#f2f5fc; */
+    margin-bottom: 15px;
+}
+/* part-2 */
+#p2{
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#p2 div{
+    gap:10px;
+    /* border: 1px solid; */
+}
+#p2 input{
+    width:100%;
+    height:33px;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    font-size: normal;
+    color: grey;
+    font-weight:lighter ;
+    /* margin-bottom: 15px; */
+}
+#p2 h4{
+    font-weight: bold;
+    color: grey;
+    margin-bottom: 10px;
+}
+span:hover{
+    text-decoration: underline;
+}
+#p2 button{
+    width: 100%;
+    height:37px;
+    color: white;
+    font-size: normal;
+    font-weight: bold;
+    margin-top: 25px;
+    border: 0px;
+    border-radius: 7px;
+    background-color: #3070f0 ;
+}
+#p2 button:hover{
+    cursor: pointer;
+    background-color: #1952c3;
+}
+/* part-3 */
+#part3{
+    width:80%;
+    margin: auto;
+}
+#error{
+    text-align: center;
+}
+#line{
+    display: flex;
+    justify-content: space-between;
+    color:lightgray;
+    font-weight: bold;
+}
+.or{
+    color: darkgray;
+}
+#p3{
+    width:100%;
+    height:20vh;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#p3 div{
+    width:100%;
+    height:37px;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    font-size: normal;
+    color: grey;
+    font-weight:lighter ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: larger;
+}
+
+#p3 div:hover{
+    cursor: pointer;
+    /* background-color: lightgray; */
+}
+
+#last{
+    text-align: center;
+    font-size: larger;
+}
