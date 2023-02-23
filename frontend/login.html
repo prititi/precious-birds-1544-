@@ -1,392 +1,54 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SignUp</title>
-    <link rel="stylesheet" href="./style/login.css">
-    <link rel="icon" href="https://www.anthropologie.com/favicon.ico">
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-<style>
 
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body{
-    
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
- 
-  }
-  .big{
-   font-size: 25px;  
-}
-.PopUp{
-  background-color: aqua;
- position: absolute;
-  width:30%;
-  padding: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  top: -250%;
-  left: 50%;
-  transform: translate(-50%,-50%) scale(1.05);
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-  /* transition:top 0ms ease-in-out 200ms,
-              opacity 200ms ease-in-out 0ms,
-             transform 20ms ease-in-out 00ms; */
-}
-.PopUp.active{
-top:50%;
-left: 50%;
-transform: translate(-50%,-50%) scale(1);
-/* transition:top 0ms ease-in-out 200ms,
-              opacity 200ms ease-in-out 0ms,
-             transform 20ms ease-in-out 00ms; */
-
-}
-p{
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 15px;
-}
-#email{
-  width: 85%;
-  padding: 12px;
-  font-size: 16px;
-  width: 100%;
-  margin-bottom: 20px;
-  color: gray;
-}
-
-.hov{
-  padding: 2px;
-  padding-left: 3px;
-  padding-right: 3px;
-  border-radius: 50%;
-  border: 1px solid green;
-  color: green;
-}
-.closebutton{
-  margin-left: 100%;
-  color: gray;
-}
-.submit{
-  width: 100%;
-  margin-bottom: 30px;
-  padding: 12px;
-  font-size: 16px;
-  color: gray;
-}
-.mobilenumber{
-  width: 100%;
-  margin-bottom: 25px;
-  padding: 12px;
-  font-size: 20px;
-  color: gray;
-}
-.create_accnt{
-  width: 100%;
-  margin-bottom: 30px;
-  padding: 12px;
-  font-size: 16px;
-  color: gray;
-}
-a{
-  color: gray;
-  font-size: 17px;
-  text-decoration: none;
-}
-.check{
-  background:linear-gradient(to right,#dccbb5,#e88eb5,#abc4d8);
-
- position: absolute;
-  width:30%;
-  padding: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  top:-850%;
-  left: 50%;
-  transform: translate(-50%,-50%) scale(1.05);
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-  /* transition:top 0ms ease-in-out 200ms,
-              opacity 200ms ease-in-out 0ms,
-             transform 20ms ease-in-out 00ms; */
-
-}.check.active{
-top:50%;
-left: 50%;
-transform: translate(-50%,-50%) scale(1);
-/* transition:top 0ms ease-in-out 200ms,
-              opacity 200ms ease-in-out 0ms,
-             transform 20ms ease-in-out 00ms; */
-
-}#numb{
-  width: 85%;
-  padding: 12px;
-  font-size: 16px;
-  width: 100%;
-  margin-bottom: 20px;
-  color: gray;
-}
-.EmailIDUSE{
-  width: 100%;
-  margin-bottom: 25px;
-  padding: 12px;
-  font-size: 20px;
-  color: gray;
-}
-.Signup{
-  background:linear-gradient(to right,#aea28a,#a1bce8,#c8a4da);
-
-position: absolute;
- width:30%;
- height: 650px;
- padding: 10px;
- padding-left: 30px;
- padding-right: 30px;
- top:-300%;
- left: -140%;
- transform: translate(-50%,-50%) scale(1.05);
-
- overflow: auto;
- box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-}.Signup.active{
-  top:50%;
-left: 50%;
-transform: translate(-50%,-50%) scale(1);
-}
-.signinone{
-  width: 100%;
-  margin-bottom: 30px;
-  padding: 12px;
-  font-size: 16px;
-  color: gray;
-
-}#email1{
-    width: 85%;
-  padding: 12px;
-  font-size: 16px;
-  width: 100%;
-  margin-bottom: 20px;
-  color: gray;
-}
-</style>
 <body>
-    <div
-    class="signinup">
-<button class="signup">SignUp</button>
-</div>
-    <div class="PopUp">
-        <div class="closebutton">X</div>
-        <form action="">
-     <div class="form">
-        <p class="big">Sign IN</p>
-        <hr>
-        <p>Sign in so you can save items to your wishlists, track your orders, and check out faster!</p>
-        <div class="form-element"></div>
-        <label for="">Email*</label>
-        <br>
-        <input type="email" id="email" placeholder="Enter email" required>
-     </div>
-      <input type="checkbox">
-      <label for="">keep me signed in <span class="animate"><button class="hov">i</button></span></label>
-      
-      
-      <button class="submit">NEXT</button>
-    
-      <button class="mobilenumber">
-        <a href="">USE MOBILE NUMBER INSTEAD</a>
-        </button>
-      <hr>
-      <p class="big">Sign UP</p>
-      <p>Welcome! It's quick and easy to set up an account</p>
-      <button class="create_accnt">
-        <a href="">Create An Account</a>
-      </button>
-      
-    </form>
+    <nav>
+        <a href="./index.html">Home Page</a>
+        <a href="login.html">Login Page</a> <a href="singup.html">SignUp page</a> <a href="./createNotes.html">Create
+            Note Page</a> <a href="./notes.html">Note Page</a> <a href="#" id="logout">LogOut</a>
+    </nav>
+    <div id="container">
+        <h1>Login Page</h1>
+        <input type="text" id="email" placeholder="Enter your email...">
+        <input type="password" id="pass" placeholder="Enter your password...">
+        <button onclick="OnLogin()">Login</button>
     </div>
-
-
-
-
-    <div class="check">
-      <div class="closebutton">X</div>
-      <form action="">
-   <div class="form">
-      <p class="big">Sign IN</p>
-      <hr>
-      <p>Sign in so you can save items to your wishlists, track your orders, and check out faster!</p>
-      <div class="form-element"></div>
-      <label for="">MOBILE NUMBER*</label>
-      <br>
-      <input type="number" id="number" placeholder="Enter Mobile" required>
-   </div>
-    <input type="checkbox">
-    <label for="">keep me signed in <span class="animate"><button class="hov">i</button></span></label>
-    
-    <div>
-    <button class="submit">NEXT</button>
-  </div>
-    <button class="EmailIDUSE">
-      <a href="">SIGN UP WITH EMAIL INSTEAD</a>
-      </button>
-     
-      <p>Landlines, VoIP, and prepaid phones are not supported. Standard message & data rates may apply. 
-        Message frequency may vary. Reply HELP for help, and STOP to cancel.</p>
-
-    <hr>
-    <p class="big">Sign UP</p>
-    <p>Welcome! It's quick and easy to set up an account</p>
-    <button class="create_accnt">
-      <a href="">Create An Account</a>
-    </button>
-    
-  </form>
-  </div>
-
-
-  <div class="Signup">
-    <div class="closebutton">X</div>
-    <form action="">
- <div class="form">
-    <p class="big">Create An Account</p>
-    <hr>
-    <p>Welcome to Anthropologie! It's quick and easy to set up an account.</p>
-    <div class="form-element"></div>
-    <label for="">Email*</label>
-    <br>
-    <input type="email" id="email1" placeholder="Enter Email"  required>
-    <label for="">MOBILE NUMBER*</label>
-    <br>
-    <input type="number" id="numb" placeholder="Enter Mobile" min="10" max="10" required>
- </div>
-  <input type="checkbox">
-  <label for="">keep me signed in <span class="animate"><button class="hov">i</button></span></label>
-  
-  <div>
-  <button class="submit">NEXT</button>
-</div>
-<input type="checkbox">
-<label style="font-size:12px;line-height: 2px;" for="">Sign me up to receive Anthropologie offers, promotions and other commercial messages. By creating an account, I agree to Anthropologie's Terms of Service and Privacy Policy. I may unsubscribe at any time. Creating an account will not enroll you in SMS marketing.</label>
-<p style="font-size:12px;line-height:20px;">By creating an account, you agree to Anthropologie's <a href="">terms of use</a> and privacy policy. 
-  Landlines, VoIP, and prepaid phones are not supported. Standard message & data rates may apply.
-   Message frequency may vary. Reply HELP for help, and STOP to cancel. Contact us for more information.</p>
-   <hr>
-  <p class="big">Already Have An Account</p>
-  <button class="signinone">
-    <a href="">SIGN IN</a>
-  </button>
-  
-</form>
-</div>
-
 </body>
+
 </html>
+<script src="./script/logout.js"></script>
 <script>
- 
- document.querySelector(".signup").addEventListener("click",function (el){
-  el.preventDefault()
-  document.querySelector(".PopUp").classList.add("active")
- })
- document.querySelector(".PopUp .closebutton").addEventListener("click",function (el){
-  el.preventDefault()
-  document.querySelector(".PopUp").classList.remove("active")
- })
- 
- document.querySelector(".mobilenumber").addEventListener("click",function (el){
-  el.preventDefault()
-  document.querySelector(".PopUp").classList.remove("active")
-  document.querySelector(".check").classList.add("active")
- })
+    let serverUrl = "https://calm-tan-alligator-tie.cyclic.app/"
 
- document.querySelector(".EmailIDUSE").addEventListener("click",function (el){
-  el.preventDefault()
-  document.querySelector(".check").classList.remove("active")
-  document.querySelector(".PopUp").classList.add("active")
-  
- })
- document.querySelector(".check .closebutton").addEventListener("click",function (el){
-  el.preventDefault()
-  document.querySelector(".check").classList.remove("active")
- })
- 
+    const OnLogin = () => {
+        const payload = {
 
- 
- document.querySelector(".create_accnt").addEventListener("click",function (el){
-  el.preventDefault()
-  document.querySelector(".PopUp").classList.remove("active");
-  document.querySelector(".check").classList.remove("active");
-  document.querySelector(".Signup").classList.add("active");
+            email: document.getElementById("email").value,
+            pass: document.getElementById("pass").value
 
-  
- })
- document.querySelector(".Signup .closebutton").addEventListener("click",function (el){
-  el.preventDefault()
-  
-  document.querySelector(".Signup").classList.remove("active");
-
-  })
-
-
-   
- document.querySelector(".Signup .signinone").addEventListener("click",function (el){
-  el.preventDefault()
- 
-  document.querySelector(".check").classList.remove("active");
-  document.querySelector(".Signup").classList.remove("active");
- document.querySelector(".PopUp").classList.add("active");
-  
- })
-
- document.querySelector(".check .create_accnt").addEventListener("click",function (el){
-  el.preventDefault()
-  document.querySelector(".PopUp").classList.remove("active");
-  document.querySelector(".check").classList.remove("active");
-  document.querySelector(".Signup").classList.add("active");
-
-  
- })
- 
-//click part POPUP 1st
-
-
-let k=document.querySelector("#email1");
-      let p=document.querySelector("#numb");
- document.querySelector(".Signup .submit").addEventListener("click",function(event){
-  event.preventDefault()
-     
-      console.log(p.value)
-let email=k.value;
-let number=p.value;
-      let obj={
-       email,
-       number
-      }
-      if(obj.email && obj.number){
-      let setdata=JSON.parse(localStorage.getItem("SignUPDATA"))||[];
-  setdata.push(obj);
-  localStorage.setItem("SignUPDATA",JSON.stringify(setdata));
-  alert("Signin-SUccessfull")
-      }  
- })
-
- let getmaindata=JSON.parse(localStorage.getItem("SignUPDATA"))
-let email=document.getElementById("email")
-document.querySelector(".PopUp .submit").addEventListener("click",function(event){
-  event.preventDefault()
-
-  getmaindata.forEach(element => {
-    if(element.email==email.value){
-      alert("SIGN IN SUCCESSFULL")
-
-    }else{
-      alert("Please Provide Valid Credentials")
+        }
+        fetch(`${serverUrl}users/login`, {
+            method: "POST",
+            headers: {
+                "Content-type": "application/json"
+            },
+            body: JSON.stringify(payload)
+        }).then(res => res.json())
+            .then(res => {
+                console.log(res)
+                localStorage.setItem("token", res.token)
+            })
+            .catch(err => console.log(err))
     }
-  });
-
-})
+   
 </script>
+<script src="./script/logout.js"></script>

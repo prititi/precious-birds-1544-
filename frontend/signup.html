@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="./style/register.css">
+    <link rel="stylesheet" href="./style/nav.css">
+    <link rel="icon" href="./imsges/travolook.png" />
+</head>
+<body>
+   
+    <div id="nav">
+     
+    </div>
+    <div id="container">
+        <div id="box">
+        <div id="part1">
+            <a href="../index.html"> <img src="./imsges/travolook.png" alt="" /></a>
+          </div><br>
+          <div style="text-align: center;font-size: 20px;">Create Your Account</div><br>
+        <div id="error"></div>
+        <div id="part2">
+            <div id="p2">
+              <div>
+              <h4>Name</h4>
+              <input type="text" id="name" placeholder=" Enter Name" required />
+            </div>
+            <div>
+              <h4>Email</h4>
+              <input type="email" id="email" placeholder=" Enter Email" required/>
+            </div>
+            <div>
+              <h4>Password</h4>
+              <input id="pass" type="password" placeholder=" Enter password" required
+              /> </div>
+              <div><br>
+              <h4>
+                I accept <span style="color: #3070f0"> Terms of Service</span>
+              </h4>
+            </div>
+            <div>
+                <button onclick="onSignup()">SignUp</button>
+            </div>
+            </div>
+          </div>
+          <br />
+          <div id="part3">
+            <div id="line">
+              <p>—————————————</p>
+              <p class="or">or</p>
+              <p>———————————</p>
+            </div>
+            <br />
+            <div id="p3">
+              <div>
+                <img src="https://id.tmetric.com/images/google_logo.svg" alt="" />
+                <p>Log In with Google</p>
+              </div>
+              <div>
+                <img
+                  src="https://id.tmetric.com/images/microsoft_logo.svg"
+                  alt=""
+                />
+                <p>Log In with Microsoft</p>
+              </div>
+              <div>
+                <img src="https://id.tmetric.com/images/apple_logo.svg" alt="" />
+                <p>Log In with Apple</p>
+              </div>
+            </div>
+            <br>
+            <p id="last">
+              Already have an account? <a style="text-decoration: none;color: #3070f0;" href="./login.html"> <span style="color: #3070f0"> Log In</span></a>
+            </p>
+          </div>
+        </div>
+    </div>
+
+
+
+
+    </div>
+    
+</body>
+</html>
+<script src="./script/register.js"></script>
+<!-- <script>
+      let serverUrl="https://calm-tan-alligator-tie.cyclic.app/"
+      var arr = JSON.parse(localStorage.getItem("user")) || [];
+
+    const onSignup=()=>{
+        const payload= {
+            name: document.getElementById("name").value,
+            email: document.getElementById("email").value,
+            pass: document.getElementById("pass").value
+
+        }
+        fetch(`${serverUrl}users/register`,{
+            method:"POST",
+            headers:{
+                "Content-type":"application/json"
+            },
+            body: JSON.stringify(payload)
+        }).then(res=>res.json())
+        .then(res=>console.log(res))
+        .catch(err=>console.log(err))
+    }
+    if(payload.email == "" || payload.password == ""||payload.name ==""){
+        
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Do not empty!',
+          })
+    }
+    else{
+        arr.push(payload)
+        localStorage.setItem("user", JSON.stringify(arr));
+        // error.innerText = "Signup Successful!"
+        // error.style.color = "green";
+        Swal.fire(
+            'Good job!',
+            'Signup Successful!',
+            'success'
+          )
+        setTimeout(()=>{
+            window.location.href="./login.html"
+        }, 4000);
+    }
+   
+</script> -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script type="module">
+    import {navbar} from "./landing/nav.js";
+    // console.log(navbar)
+    document.getElementById("nav").innerHTML=navbar()
+
+</script>
