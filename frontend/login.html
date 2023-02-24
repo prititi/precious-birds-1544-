@@ -1,54 +1,90 @@
-
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+  </head>
+  <link rel="stylesheet" href="./style/login.css" />
+  <link rel="icon" href="./imsges/travolook.png" />
+  <!-- <link rel="stylesheet" href="./style/nav.css"> -->
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-
-<body>
-    <nav>
-        <a href="./index.html">Home Page</a>
-        <a href="login.html">Login Page</a> <a href="singup.html">SignUp page</a> <a href="./createNotes.html">Create
-            Note Page</a> <a href="./notes.html">Note Page</a> <a href="#" id="logout">LogOut</a>
-    </nav>
-    <div id="container">
-        <h1>Login Page</h1>
-        <input type="text" id="email" placeholder="Enter your email...">
-        <input type="password" id="pass" placeholder="Enter your password...">
-        <button onclick="OnLogin()">Login</button>
+  <body>
+    <div id="nav">
+     
     </div>
-</body>
-
+    <div id="container">
+      <div id="box">
+        <div id="part1">
+          <a href="../index.html"> <img id="logimg" src="./imsges/travolook.png" alt="" /></a>
+        </div>
+        <div id="error"></div>
+        <div id="part2">
+          <div id="p2">
+            <h4>Email</h4>
+            <input
+              type="email"
+              id="email"
+              placeholder=" Enter Email"
+            />
+            <h4>Password</h4>
+            <input
+              type="password"
+              id="pass"
+              name="pass"
+              placeholder=" Enter password"
+            />
+            <button onclick="OnLogin()">Login</button>
+          </div>
+        </div>
+        <br>
+        <div id="part3">
+          <div id="line">
+            <p>——————————</p>
+            <p class="or">or</p>
+            <p>——————————</p>
+          </div>
+        <br>
+          <div id="p3">
+            <div>
+              <img src="https://id.tmetric.com/images/google_logo.svg" alt="" />
+              <p>Log In with Google</p>
+            </div>
+            <div>
+              <img
+                src="https://id.tmetric.com/images/microsoft_logo.svg"
+                alt=""
+              />
+              <p>Log In with Microsoft</p>
+            </div>
+            <div>
+              <img src="https://id.tmetric.com/images/apple_logo.svg" alt="" />
+              <p>Log In with Apple</p>
+            </div>
+          </div>
+          <div id="line">
+            <p>———————————————————————</p>
+          </div>
+          <div id="last">
+            <p>Can't Log In?</p>
+            <a style="text-decoration: none;color:#3070f0 ;" href="./signup.html"> <p>Sign Up</p></a>
+          </div>
+        </div>
+      </div>
+      <p id="privacy">Privacy Policy</p>
+    </div>
+  </body>
 </html>
-<script src="./script/logout.js"></script>
-<script>
-    let serverUrl = "https://calm-tan-alligator-tie.cyclic.app/"
 
-    const OnLogin = () => {
-        const payload = {
 
-            email: document.getElementById("email").value,
-            pass: document.getElementById("pass").value
+<script src="./script/login.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-        }
-        fetch(`${serverUrl}users/login`, {
-            method: "POST",
-            headers: {
-                "Content-type": "application/json"
-            },
-            body: JSON.stringify(payload)
-        }).then(res => res.json())
-            .then(res => {
-                console.log(res)
-                localStorage.setItem("token", res.token)
-            })
-            .catch(err => console.log(err))
-    }
-   
-</script>
-<script src="./script/logout.js"></script>
+
+  <!-- <script type="module">
+    import {navbar} from "./landing/nav.js";
+    // console.log(navbar)
+    document.getElementById("nav").innerHTML=navbar()
+
+</script> --> 

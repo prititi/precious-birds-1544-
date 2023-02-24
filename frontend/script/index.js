@@ -284,7 +284,7 @@ let partnershipData = [
   };
   <script type="module">
     import {navbar} from "./landing/nav.js";
-    console.log(navbar)
+    {/* console.log(navbar) */}
     document.getElementById("nav").innerHTML=navbar()
 
 </script>

@@ -1,0 +1,765 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: circularairpro-bold,Helvetica,Arial,sans-serif;
+  }
+  #header1 {
+    width: 100%;
+    height: 55vh;
+    background-image: url("https://cdn1.tripoto.com/media/filter/nxxl/img/311219/Image/1573737581_screen_shot_2019_11_14_at_6_46_59_pm.jpg");
+    background-size: cover;
+    margin-top: -85px;
+    
+  }
+  #nav {
+    width: 100%;
+    /* height: 10vh; */
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    position: absolute;
+    position: relative;
+  }
+  #nav > div:nth-child(1) {
+    width: 13%;
+    /* height: 10vh; */
+    margin-left: 30px;
+    margin-top: 5px;
+  }
+  #nav > div:nth-child(3) {
+    width: 35%;
+    height: 10vh;
+    margin-right: 30px;
+  }
+  #link {
+    display: flex;
+    justify-content: space-between;
+  }
+  #link > a {
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bolder;
+    color: white;
+  }
+  #global {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 93px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+  }
+  #search {
+    width: 48%;
+    height: 5vh;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+  }
+  #navsearch {
+    width: 30%;
+    height: 2vw;
+    border-radius: 5px;
+    background-color: white;
+    padding: 7px;
+    margin-top: 12px;
+  }
+  #newinput {
+    line-height: 1vh;
+    border: none;
+    outline: none;
+    width: 90%;
+  }
+  #input {
+    line-height: 5vh;
+    border: none;
+    outline: none;
+    width: 95%;
+  }
+  
+  #login {
+    width: 25%;
+    height: 60vh;
+    background-color: white;
+    top: 35px;
+    left: 500px;
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    position: fixed;
+  }
+  #facebook {
+    width: 90%;
+    height: 5vh;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgb(31, 31, 95);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #google {
+    width: 90%;
+    height: 5vh;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #email {
+    width: 90%;
+    height: 5vh;
+    outline: none;
+    margin-left: 18px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+  }
+  #email1 {
+    width: 90%;
+    height: 5vh;
+    outline: none;
+    margin-left: 18px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  #options {
+    width: 92%;
+    height: 5vh;
+    outline: none;
+    margin-left: 18px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  #robot {
+    width: 92%;
+    height: 8vh;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+  }
+  #checkbox {
+    width: 7%;
+    height: 4vh;
+    border: 1px solid red;
+    margin-top: 13px;
+    margin-left: 20px;
+    float: left;
+  }
+  #captcha {
+    width: 20%;
+    height: 6vh;
+    margin-top: 5px;
+    margin-right: 5px;
+    float: right;
+  }
+  #name {
+    width: 90%;
+    height: 5vh;
+    outline: none;
+    margin-left: 18px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+  }
+  #password {
+    width: 90%;
+    height: 5vh;
+    outline: none;
+    margin-left: 18px;
+    border: 1px solid blueviolet;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+  #password1 {
+    width: 90%;
+    height: 5vh;
+    outline: none;
+    margin-left: 18px;
+    border: 1px solid blueviolet;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+  #remember {
+    width: 90%;
+    height: 5vh;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  #button {
+    width: 90%;
+    height: 5vh;
+    margin-left: 18px;
+    margin-top: 10px;
+    background-color: rgb(250, 8, 8);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  #button1 {
+    width: 90%;
+    height: 5vh;
+    margin-left: 18px;
+    margin-top: 10px;
+    background-color: rgb(250, 8, 8);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  #termcondition {
+    width: 90%;
+    height: 6vh;
+  }
+  #signup {
+    width: 90%;
+    height: 5vh;
+    margin: auto;
+    margin-top: 10px;
+  }
+  #fbimage {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin-left: 80px;
+    float: left;
+    margin-top: 7px;
+  }
+  #text {
+    width: 50%;
+    height: 3vh;
+    float: left;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  #fbimage > img {
+    width: 100%;
+    height: 100%;
+  }
+  #close {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    float: right;
+    margin-right: 5px;
+  }
+  #close > img {
+    width: 100%;
+    height: 100%;
+  }
+  #signin {
+    width: 25%;
+    height: 85vh;
+    background-color: white;
+    top: 35px;
+    left: 500px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: none;
+    position: absolute;
+    position: fixed;
+  }
+  /* <!-------------------------------------- fooooooooooooterrrrrrr style ---------------------------------------------------> */
+  
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltip-popup {
+    visibility: hidden;
+    width: 130px;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    border-radius: 2px;
+    margin-left: -50px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 20px;
+    line-height: 35px;
+  }
+  .tooltip:hover .tooltip-popup {
+    visibility: visible;
+  }
+  .tooltip .tooltip-popup {
+    visibility: hidden;
+    width: 130px;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    border-radius: 2px;
+    margin-left: -50px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 20px;
+    line-height: 35px;
+  }
+  .tooltip:hover .tooltip-popup {
+    visibility: visible;
+  }
+  .tooltip > a > p {
+    margin-top: 20px;
+    color: white;
+  }
+  .tooltip > a {
+    text-decoration: none;
+  }
+  .tooltip > p {
+    color: white;
+    margin-top: 20px;
+  }
+  /* ------------------------------------------------------------------------------------------------------------- */
+  
+  #Hindi2div {
+    display: flex;
+    /* width: 30%; */
+    margin-left: 3%;
+  }
+  #Hindi2div > div > a > img {
+    /* margin-left: 20%; */
+    height: 210px;
+    width: 320px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  #Hindi2div > div > div > a {
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+  }
+  #hindiHeading1 {
+    padding: 30px;
+  }
+  #common_Header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://cdn1.tripoto.com/media/filter/tst/img/1675448/Image/1584532458_tripoto_hindi_top_banner_mobile.jpg");
+    background-size: cover;
+  }
+  #common_nav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    top: 0;
+    left: 0;
+    position: absolute;
+    position: relative;
+    /* border: 1px  solid black; */
+    /* background-color: rgb(71, 69, 69); */
+  }
+  #common_nav > div:nth-child(1) {
+    width: 13%;
+    height: 10vh;
+    margin-top: 5px;
+  }
+  #common_nav > div:nth-child(3) {
+    height: 10vh;
+    margin-left: 2%;
+  }
+  #Hindi_link {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1%;
+  }
+  #Hindi_link > a {
+    margin-right: 10px;
+    gap: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bolder;
+    color: white;
+    font-family: circularairpro-bold, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+  }
+  #Common_navsearch {
+    width: 40%;
+    height: 2vw;
+    /* margin-left: 0px; */
+    border-radius: 5px;
+    background-color: white;
+    padding: 7px;
+    margin-top: 12px;
+  }
+  #hindiInputCont {
+    justify-content: center;
+    align-items: center;
+    line-height: 4vh;
+    border: none;
+    outline: none;
+    width: 90%;
+  }
+  #mainLogo {
+    height: 200px;
+    width: 200px;
+  }
+  .hindi {
+    width: 95%;
+    /* border: 1px solid black; */
+    margin: auto;
+  }
+  
+  .hindi_section2 {
+    width: 95%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(6, auto);
+    margin-left: 3%;
+    /* border: 1px solid black; */
+  }
+  .box {
+    margin-top: 0.2%;
+    width: 390px;
+    height: 520px;
+    grid-template-columns: 20% 20% 20%;
+    margin-left: 34.3px;
+    /* border: 1px solid black; */
+    margin-bottom: 10px;
+  }
+  /* img {
+    width: 392px;
+    height: 250px;
+    border-radius: 3%;
+    margin-left: 0px;
+  } */
+  #Hindi2div2 > div a >img{
+    width: 392px;
+    height: 250px;
+    border-radius: 3%;
+    margin-left: 0px;
+  }
+  .box > a > img{
+    width: 392px;
+    height: 250px;
+    border-radius: 3%;
+    margin-left: 0px;
+  }
+  .partnertext > p {
+    font-size: 20px;
+  }
+  
+  .small_img {
+    width: 20px;
+    height: 20px;
+    padding: 0.5%;
+    float: left;
+  }
+  #next {
+    float: right;
+    margin-top: 80px;
+    width: 30px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 40px;
+  }
+  .slick-arrow {
+    color: black;
+    font-size: 0px;
+    margin-top: -50px;
+    padding: 0;
+  }
+  
+  .slick-next {
+    margin-right: 40px;
+  }
+  .slick-prev {
+    left: -45px;
+  }
+  .slick-next,
+  .slick-prev {
+    line-height: 0;
+    position: absolute;
+    top: 40%;
+    display: block;
+    width: 50px;
+    height: 20px;
+  }
+  .slick-next:before,
+  .slick-prev:before {
+    font-family: slick;
+    font-size: 50px;
+    line-height: 1;
+    opacity: 0.75;
+    color: rgb(177, 171, 171);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  a {
+    color: teal;
+    text-decoration: none;
+  }
+  .hinditext {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 160px;
+    margin-top: 16px;
+  }
+  .daynight {
+    background-color: teal;
+    color: white;
+    width: 60px;
+    height: 20px;
+    border-radius: 15px;
+    padding: 2%;
+    text-align: center;
+  }
+  .hinditext1 {
+    display: grid;
+    grid-template-columns: 20% 30% 30%;
+    gap: 40px;
+    margin-top: 20px;
+    height: 25px;
+    /* margin-left: 20%; */
+  }
+  .booknowbtn {
+    width: 80px;
+    border-radius: 5px;
+    border: 1px solid teal;
+    color: teal;
+    height: 30px;
+    text-align: center;
+    padding: 2%;
+    /* margin-top: 20px; */
+    margin-left: 30px;
+    cursor: pointer;
+    margin-left: 160%;
+  }
+  .booknowbtn1 {
+    margin-left: 160%;
+    width: 80px;
+    border-radius: 5px;
+    border: 1px solid teal;
+    color: teal;
+    height: 30px;
+    text-align: center;
+    padding: 2%;
+    /* margin-top: 20px; */
+    /* margin-left: 30px; */
+    cursor: pointer;
+  }
+  
+  .footerFirst {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    width: 100%;
+    gap: 10px;
+  }
+  .footerFirst > div {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 1%;
+    height: 350px;
+    font-family: helvetica, arial, sans-serif;
+  }
+  .footerSecond {
+    width: 98%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: helvetica, arial, sans-serif;
+  }
+  .footerFirst > div > a {
+    text-decoration: none;
+    color: black;
+    font-size: smaller;
+  }
+  .footerSecond > p {
+    margin-top: 10px;
+    font-size: smaller;
+  }
+  #logo {
+    width: 180px;
+    font-size: smaller;
+    margin-left: 25px;
+  }
+  .GooglePlaystore {
+    margin-left: 5px;
+    margin-top: 15px;
+  }
+  .social-icon {
+    margin-top: 5px;
+  }
+  .social-icon > a > img {
+    height: 25px;
+  }
+  
+  /*impp*/
+  
+  .container {
+    width: 100%;
+    font-family: circularairpro-bold, Helvetica, Arial, sans-serif;
+  }
+  .container > h1 {
+    margin-left: 230px;
+    font-family: circularairpro-bold, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .TrendingTrips {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    width: 72%;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .TravelGuides {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+  }
+  .DiscoverNow {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    width: 85%;
+    height: 250px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+  }
+  .img > img {
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+  }
+  .button {
+    display: flex;
+    width: 320px;
+  }
+  .discription {
+    width: 320px;
+  }
+  .discription > h4 {
+    margin: 0;
+  }
+  .button > button {
+    margin-left: 200px;
+    height: 20px;
+    margin-top: 5px;
+  }
+  .button > h5 {
+    margin-top: 5px;
+  }
+  .discription > p {
+    font-size: smaller;
+    margin-top: 0;
+  }
+  .img1 > img {
+    width: 250px;
+    height: 170px;
+    margin-top: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .img2 > img {
+    width: 180px;
+    height: 250px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  .slick-arrow {
+    color: black;
+    font-size: 0px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slick-next {
+    right: 0px;
+  }
+  .slick-prev {
+    left: -45px;
+  }
+  
+  .slick-next,
+  .slick-prev {
+    line-height: 0;
+    position: absolute;
+    top: 40%;
+    display: block;
+    width: 50px;
+    height: 20px;
+  }
+  .slick-next:before,
+  .slick-prev:before {
+    font-family: slick;
+    font-size: 50px;
+    line-height: 1;
+    opacity: 0.75;
+    color: rgb(177, 171, 171);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  #tourpackage {
+    /* margin-left:40px */
+    margin-left: 1%;
+    padding: 30px;
+  }
+  #tourpackagep {
+    padding: 20px;
+    margin-left: 2%;
+    /* color: red; */
+  }
+  #hindislidetag {
+    margin-top: 8px;
+    margin-left: 1%;
+  }
+  #mainLogoHindi > img {
+    height: 50px;
+    width: 130px;
+    margin-left: 5%;
+    margin-top: 8px;
+  }
+  #packagecont {
+    color: #359391;
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 4px;
+    /* text-decoration: none; */
+  }
+  #hrlineinbottom {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(203, 203, 203);
+  }
+  #lastimagelogo {
+    margin-top: 7px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  #chamgedivlogoname {
+    margin-top: -8%;
+    margin-left: 14%;
+    margin-bottom: 50px;
+  }
+  #Hindi2div2{
+    display: flex;
+    gap: 30px;
+    margin-left: 5%;
+  }
+  #hindiHeading2{
+    padding: 10px;
+    margin-left: 4%;
+  }
+  #lastdivtripoto1 >p{
+    padding: 10px;
+    margin-left: 4%;
+  }
+  #nav>div>img{
+    height: 50px;
+    width: 100px;
+  }
+  #lastfooterfix{
+    /* padding: 50%; */
+    /* margin-top: 100px; */
+    margin-bottom: 60px;
+  }
