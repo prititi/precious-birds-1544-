@@ -6,7 +6,8 @@
     }
     
     #nav{
-    background-color: #2f9bdb;
+        background-color: transparent;
+        height: 13%;
     }
     #nav{
     display: flex;
@@ -45,12 +46,18 @@
     #logo>img{
     margin-top: 4px;
     display: inline-block;
+    width: 40%;
+    border-radius: 15px;
+    /* margin-top: 20px; */
     }
     #nav1{
     display: flex;
     gap: 30px;
     margin-left: 1%;
     
+    }
+    #mysignup{
+        color: black;
     }
     input{
     display: inline-block;
@@ -66,11 +73,11 @@
     #nav2{
     gap: 50px;
     font-size: 15px;
-    font-weight: 15px;
-    color: white;
+    font-weight: bold;
+    color: black;
     margin-top: 15px;
     }
     
     #Litleanchortag{
-        color: white;
+        color:black;
     }

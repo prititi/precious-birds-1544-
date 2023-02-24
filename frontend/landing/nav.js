@@ -1,10 +1,10 @@
 let navbar=()=>{
     return `   <div id="nav1">
     <a id="logo" href="">
-      <img src="https://cdn1.tripoto.com/assets/2.9/img/logo/tripoto.svg" alt="">
+      <img src="https://i.ibb.co/4J8ZcLM/travolook.png" alt="">
     </a>
 
-  <input  type="text" placeholder="Search for intineraries, destination, hotels or activites">
+  
 </div>
 <div id="nav2">
   <span id="tooltip">
@@ -14,7 +14,7 @@ let navbar=()=>{
       <div id="tooltip-popup">
       <a href="../visit_dubai.html"><p>Visit Dubai</p></a>
       <a href="../Beaches/beaches.html"> <p>Beaches</p></a>
-      <a href="../packages.html"> <p>Packages</p></a>
+      <a href="./packages.html"> <p>Packages</p></a>
       <a href="../MindfulRetreats.html"><p>Mindful Rest</p></a>
       <a href="../tripotoFamily.html"><p>Family</p></a>
       <a href="../explore.html"><p>Explore More</p></a>
@@ -37,9 +37,9 @@ let navbar=()=>{
         
       </div>
   </span>
-
+  <a id= "mysignup" href="./signup.html"><p>SignUp</p></a>
   <span>
-      <p>Sign in</p>
+      
   </span>
 </div>`
 }

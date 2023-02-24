@@ -1,0 +1,60 @@
+#common_nav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    top: 0;
+    left: 0;
+    position: relative;
+    /* border: 1px  solid black; */
+    background-color: #2f9bdb;
+    /* position: fixed; */
+  }
+  #common_nav > div:nth-child(1) {
+    width: 13%;
+    height: 10vh;
+    margin-top: 5px;
+  }
+  #common_nav > div:nth-child(3) {
+    height: 10vh;
+    margin-left: 2%;
+  }
+  #Hindi_link {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30%;
+  }
+  #Hindi_link > a {
+    margin-right: 80px;
+    gap: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bolder;
+    color: white;
+    font-family: circularairpro-bold, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+  }
+  #Common_navsearch {
+    width: 40%;
+    height: 2vw;
+    /* margin-left: 0px; */
+    border-radius: 5px;
+    background-color: white;
+    padding: 7px;
+    margin-top: 12px;
+  }
+  #hindiInputCont {
+    justify-content: center;
+    align-items: center;
+    line-height: 4vh;
+    border: none;
+    outline: none;
+    width: 90%;
+  }
+  #mainLogo{
+      height: 200px;
+      width: 200px;
+  }
+  #mainLogoHindi{
+    margin-left: 30px;
+  }
