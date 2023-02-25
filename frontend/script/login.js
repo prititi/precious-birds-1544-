@@ -17,7 +17,7 @@
         }).then(res => res.json())
             .then(res => {
                 console.log(res)
-                localStorage.setItem("token", res.token)
+                localStorage.setItem("newtoken", res.newtoken)
             })
             .catch(err => console.log(err))
             if (payload.email==email.value && payload.pass==pass.value) {

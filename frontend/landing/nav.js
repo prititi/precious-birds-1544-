@@ -37,7 +37,8 @@ let navbar=()=>{
         
       </div>
   </span>
-  <a id= "mysignup" href="./signup.html"><p>SignUp</p></a>
+  <a id= "mysignup" href="../signup.html"><p>SignUp</p></a>
+  
   <span>
       
   </span>

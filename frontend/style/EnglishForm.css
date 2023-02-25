@@ -13,18 +13,19 @@
     height: 820px;
      margin:-70px 0px 0px 47px; 
     /* margin-left: 71%; */
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     position: fixed;
     top: 10%;
     /* left: 100%; */
     left:70%;
     z-index: 100;
-    background-color: #f0d4f0;
+    background-color: #fff;
     /* position: fixed; */
   }
   #checkout{
     font-size: 15px;
     color: #3b3838;
+    margin-left: 25px;
   }
   #formhead {
     text-align: center;
@@ -48,23 +49,33 @@
   }
   
   #submit {
-    background: #bac675;
+    background: #238ecd;
     border: 0;
     cursor: pointer;
-    color: #3e3d3d;
+    border-color: #238ecd;
+    color: #fff;
     padding: 6px;
-    width: 80%;
+    width: 90%;
     margin-bottom: 20px;
     font-size: 25px;
     font-weight: bold;
     text-align: center;
     margin-left: 8%;
+    margin-top: 20px;
     font-family: circularairpro-bold,Helvetica,Arial,sans-serif;
   }
   #submit {
-    background: #a4b15c;
+    background: #238ecd;
     transition: 0.6s;
   }
+  #submit:focus {
+    outline: none;
+}
+
+#submit:hover {
+    transform: scale(1.1);
+    background-color: #67b8e7;;
+}
   #submit2 {
     background: #a4b15c;
     border: 0;
