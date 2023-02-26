@@ -18,8 +18,8 @@ It is a individual project which is done with in  3-4 days.
 
 
 # 2) Signup Page & Login page :
-![Screenshot (389)](https://user-images.githubusercontent.com/101395093/208604052-11e65efc-e868-4a7e-8c35-d20c52120e90.png)
-![Screenshot (394)](https://user-images.githubusercontent.com/101395093/208613030-45bec7f1-23d6-4954-9b0e-c51b0e02e634.png)
+![Screenshot (27)](https://user-images.githubusercontent.com/115465871/221416743-909255fd-b8f1-41d8-8bcc-2794e8163cd5.png)
+![Screenshot (28)](https://user-images.githubusercontent.com/115465871/221416763-9c76e132-a290-4f8a-892a-96a6e91b198e.png)
 # 3) Description Page:
 
 ![Screenshot (390)](https://user-images.githubusercontent.com/101395093/208604082-17712625-e212-47d4-a32c-60f26214ba90.png)
