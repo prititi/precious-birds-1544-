@@ -14,7 +14,8 @@ It is a individual project which is done with in  3-4 days.
 
 
 # 1) Landing Page:
-![Screenshot (388)](https://user-images.githubusercontent.com/101395093/208605136-be0767fe-2339-4d70-a051-11e9fabe11af.png)
+![Screenshot (26)](https://user-images.githubusercontent.com/115465871/221416513-e4328ee4-5d40-4194-a481-74568733ff26.png)
+
 
 # 2) Signup Page & Login page :
 ![Screenshot (389)](https://user-images.githubusercontent.com/101395093/208604052-11e65efc-e868-4a7e-8c35-d20c52120e90.png)
