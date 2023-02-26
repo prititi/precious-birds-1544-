@@ -22,11 +22,11 @@ It is a individual project which is done with in  3-4 days.
 ![Screenshot (28)](https://user-images.githubusercontent.com/115465871/221416763-9c76e132-a290-4f8a-892a-96a6e91b198e.png)
 # 3) Description Page:
 
-![Screenshot (390)](https://user-images.githubusercontent.com/101395093/208604082-17712625-e212-47d4-a32c-60f26214ba90.png)
+![Screenshot (30)](https://user-images.githubusercontent.com/115465871/221417575-697d6c3e-2c55-4c73-a568-096bc9a22b90.png)
 # 4) Package Page:
-![Screenshot (391)](https://user-images.githubusercontent.com/101395093/208604099-71334d74-f43f-4b75-8f6f-25cf191674ba.png)
+![Screenshot (29)](https://user-images.githubusercontent.com/115465871/221417613-cca85976-f1a8-44d3-ad85-4b282ada0d11.png)
 # 5) Package Page:
-![Screenshot (393)](https://user-images.githubusercontent.com/101395093/208613174-74a5fbf8-b71f-4681-9961-e1958daeea9e.png)
+![Screenshot (31)](https://user-images.githubusercontent.com/115465871/221417634-856f52c9-c8b5-41d7-985c-26c5e8c4982a.png)
 
-# 6) Publish Page:
-![Screenshot (392)](https://user-images.githubusercontent.com/101395093/208604113-f958ab74-486b-4561-86cf-d3d34170b960.png)
+# 6) Admin Page:
+![Screenshot (32)](https://user-images.githubusercontent.com/115465871/221417669-b4818740-103b-41dd-a17e-b7e3d187d8ab.png)
