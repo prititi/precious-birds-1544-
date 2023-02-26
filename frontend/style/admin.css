@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+h1{
+    margin: 45px 0px 0px 474px;
+    font-size: 50px;
+}
+#btn{
+    margin: 21px 0px 0px 700px;
+    width: 10%; 
+    height: 45px;
+    border-radius: 8px;
+    font-size:large ;
+    /* background-color: #03A9F4; */
+    background: linear-gradient(to right,#eecda3,#ef629f);
+    border-color: #03A9F4;
+    cursor: pointer;
+    font-weight: bold;
+}
+#btn:focus {
+    outline: none;
+}
+
+#btn:hover {
+    background-color: #80DEEA;
+    border-color: #B2EBF2;
+    transform: scale(1.1);
+} 
+#table{
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    margin: 30px 0px 0px 150px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    cursor: pointer;
+}
+
+#data-table {
+   
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#data-table th, #data-table td {
+    border: 2px solid rgb(0, 0, 35);
+    padding: 8px;
+}
+#data-table th{
+    background: linear-gradient(to right,#eecda3,#eea8c6); 
+}
+#data-table  {
+    background-color: #f2f2f2;
+}
+
+#data-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#data-table tr:hover {
+    background-color: #ddd;
+}
+
+#data-table th {
+    text-align: center;
+}
+#adminlogo{
+    width: 10%;
+    margin-left: 30px;
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+}

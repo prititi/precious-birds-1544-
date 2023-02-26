@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./imsges/travolook.png">
+    <link rel="stylesheet" href="./style/admin.css">
+    <link rel="stylesheet" href="./style/nav.css">
+    <link rel="stylesheet" href="">
+    <link rel="icon" href="./imsges/travolook.png">
+    <title>Admin Page</title>
+</head>
+<body>
+   
+    <div>
+        <a href="./index.html"><img id="adminlogo" src="./imsges/travolook.png"></a>
+      </div>
+    <h1>Welcome to admin page👇</h1>
+    <button id="btn">UserData</button>
+    <div id="container"></div>
+</body>
+</html>
+<script src="./script/admin.js"></script>
+<script type="module">
+    import {navbar} from "./landing/nav.js";
+    // console.log(navbar)
+    document.getElementById("nav").innerHTML=navbar()
+
+</script>
