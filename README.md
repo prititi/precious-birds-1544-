@@ -27,6 +27,8 @@ It is a individual project which is done by me with in a week.
 ![Screenshot (29)](https://user-images.githubusercontent.com/115465871/221417613-cca85976-f1a8-44d3-ad85-4b282ada0d11.png)
 # 5) Package Page:
 ![Screenshot (31)](https://user-images.githubusercontent.com/115465871/221417634-856f52c9-c8b5-41d7-985c-26c5e8c4982a.png)
+# 6) Checkout Page:
+![Screenshot (33)](https://user-images.githubusercontent.com/115465871/221418144-ff1ec274-51f0-46fd-85fa-3f96d9460542.png)
 
-# 6) Admin Page:
+# 7) Admin Page:
 ![Screenshot (32)](https://user-images.githubusercontent.com/115465871/221417669-b4818740-103b-41dd-a17e-b7e3d187d8ab.png)
