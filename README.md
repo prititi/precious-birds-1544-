@@ -1,7 +1,7 @@
 # precious-birds-1544- (Tripoto)
 Tripoto is social travel platform to share and discover travel experiences, stories, community, tourism guides, hotels, holidays, getaways and attractions.
 <h2>Tripper Traveller</h2> 
-It is a individual project which is done with in  3-4 days.
+It is a individual project which is done by me with in a week.
 <h4> Live Link :  https://neon-piroshki-67feeb.netlify.app//</h4>
 ## The website contains several functionality, below is the demo pictures of the website pages along with the descripton of each page that has been build by me.
 
