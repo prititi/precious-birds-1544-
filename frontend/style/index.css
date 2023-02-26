@@ -45,13 +45,13 @@
     text-align: center;
     color: white; 
     font-size: 40px;
-    margin-top: 93px;
+    margin-top: 60px;
     font-weight: bolder;
 }
 #search{
     width: 40%;
     height: 5vh;
-    margin: auto;
+    margin: 20px 0px 0px 440px;
     border-radius: 10px;
     background-color: white;
     padding: 10px;
@@ -295,7 +295,15 @@
     display: none;
     position: absolute;
     position: fixed;
-} */
+}
+ */
+ /* #admin{
+  border: 1px solid red;
+  width: 10%;
+  background-color: red;
+  height: 50px;
+  margin-top: 10px;
+ } */
 #banner{
     width: 80%;
     margin: 50px 250px 40px 
